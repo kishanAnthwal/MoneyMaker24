@@ -14,5 +14,5 @@ app.use(cors());
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/clicked-data', require('./routes/clickedData'));
 app.use('/api/data',require('./routes/data'));
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
